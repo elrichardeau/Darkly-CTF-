@@ -1,6 +1,7 @@
 # EXPLANATIONS
 
 After doing some research we discover that it is possible to upload scripts instead of images by setting the Content-Type header in the POST request to that of an image type. This tricks the website into expecting a standard image but receiving a script instead.
+We try to upload files at http://127.0.0.1:8080/index.php?page=upload.
 
 A simple script, such as a script.py (provided in the directory) is created.
 
