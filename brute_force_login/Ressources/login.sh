@@ -6,6 +6,7 @@ PASSWORD_LIST="passwords.txt"
 
 LOG_FILE="login_attempts.log"
 
+USERNAME="admin"
 
 while read -r PASSWORD; do
     echo "Trying password: $PASSWORD"
