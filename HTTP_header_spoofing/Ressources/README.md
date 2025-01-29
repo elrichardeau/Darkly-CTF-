@@ -17,8 +17,6 @@ This vulnerability allows attackers to manipulate the User-Agent and Referer hea
 
 # SOLUTIONS
 
-1. Sanitize and validate HTTP headers
+1. Rely on strong authentication mechanisms (session tokens, API keys, OAuth) rather than HTTP headers
 
-2. Rely on strong authentication mechanisms (session tokens, API keys, OAuth) rather than HTTP headers
-
-3. Use a WAF (web application firewall) since they can inspect and block incoming requests that contain malicious or malformed HTTP headers
+2. Use a WAF (web application firewall) since they can inspect and block incoming requests that contain malicious or malformed HTTP headers
