@@ -11,6 +11,8 @@ After decrypting the value we get the "translation" of the cookie: "false".
 Since the cookie is named "i_am_admin" and its value is "false", we deduce that we need to encrypt "true". We replace the value in the cookie and the flag appears:
 **df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3**
 
+Having a publicly accessible cookie that contains admin information is a major security risk as an attacker could hijack an admin session or use these sensetive details for phising attacks.
+
 # SOLUTIONS
 
 Avoid trusting client-side cookies, always validate sensitive data (ex: is_admin) on the server side and store it via a unique session ID rather than storing it in a cookie.
