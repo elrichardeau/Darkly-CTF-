@@ -8,4 +8,4 @@ This allows us to manipulate the statistics as we wish.
 
 1. Always validate inputs on the server (check if the values are between 0 and 10 in this example)
 
-2. Authorize one feedback per IP or logged in account (or use CAPTCHA to prevent bots from repeatedly submitting responses)
+2. Authorize one feedback per logged in account (or use CAPTCHA to prevent bots from repeatedly submitting responses)
