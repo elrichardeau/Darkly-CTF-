@@ -2,7 +2,7 @@
 
 Click on 'login' then on 'forgot password' to see a 'submit' field appear with nothing else on the page, which is strange since we should usually be able to enter an email to receive the new password.
 
-Upon inspecting the page to search for a potential 'email' field, we notice there is a field in the body, already field with an email: the email of the admin who will receive the new passwords requests.
+Upon inspecting the page to search for a potential 'email' field, we notice there is a field in the body, already filled with an email: the email of the admin who will receive the new passwords requests.
 
 We try to modify the email in the HTML and by refreshing the page, surprise, we get the flag : **1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0**
 
