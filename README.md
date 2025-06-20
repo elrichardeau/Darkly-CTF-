@@ -2,7 +2,7 @@
 
 The **Darkly project** at 42 is built around the concept of a **CTF (Capture The Flag)** designed to help students **discover and exploit common web vulnerabilities** to retrieve flags, in a safe and sandboxed environment. The project is based on a deliberately vulnerable website that simulates real-world security flaws.
 
-This project strengthens understanding of **web application security, HTTP mechanisms, and backend/frontend interactions**, all of which are crucial for becoming a skilled web developer.
+This project strengthens our understanding of **web application security, HTTP mechanisms, and backend/frontend interactions**, all of which are crucial for becoming a skilled web developer.
 
 ## Features 📋
 1. **Vulnerable Web Environment:** Simulates a real website with multiple known security flaws
